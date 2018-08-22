@@ -1,7 +1,8 @@
 ---
 title: HelloWorld
 date: 2018-08-22 15:44:28
-tags:
+tags: 杂七杂八
+categories: 随笔
 ---
 ```c
 #include<stdlib.h>
