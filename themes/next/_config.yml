@@ -1,5 +1,5 @@
 # ---------------------------------------------------------------
-# Theme Core Configuration Settings
+# 主题核心配置
 # ---------------------------------------------------------------
 
 # If false, merge configs from `_data/next.yml` into default configuration (rewrite).
@@ -33,7 +33,7 @@ cache:
 
 
 # ---------------------------------------------------------------
-# Site Information Settings
+# 站点信息设置
 # ---------------------------------------------------------------
 
 # To get or check favicons visit: https://realfavicongenerator.net
@@ -91,7 +91,7 @@ footer:
   #custom_text: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.coding.me"><b>Coding Pages</b></a>
 
 # ---------------------------------------------------------------
-# SEO Settings
+# SEO 设置
 # ---------------------------------------------------------------
 
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
@@ -108,7 +108,7 @@ index_with_subtitle: false
 
 
 # ---------------------------------------------------------------
-# Menu Settings
+# 菜单设置
 # ---------------------------------------------------------------
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
@@ -132,18 +132,18 @@ menu_settings:
   badges: false
 
 # ---------------------------------------------------------------
-# Scheme Settings
+# 方案设置
 # ---------------------------------------------------------------
 
 # Schemes
 # scheme: Muse
 # scheme: Mist
-# scheme: Pisces
-scheme: Gemini
+scheme: Pisces
+# scheme: Gemini
 
 
 # ---------------------------------------------------------------
-# Sidebar Settings
+# 侧栏设置
 # ---------------------------------------------------------------
 
 # Posts / Categories / Tags in sidebar.
@@ -253,7 +253,7 @@ sidebar:
 
 
 # ---------------------------------------------------------------
-# Post Settings
+# 文章设置
 # ---------------------------------------------------------------
 
 # Automatically scroll page to section which is under <!-- more --> mark.
@@ -723,7 +723,7 @@ bookmark:
 
 
 # ---------------------------------------------------------------
-# Tags Settings
+# 标签设置
 # ---------------------------------------------------------------
 
 # External URL with BASE64 encrypt & decrypt.
@@ -765,8 +765,8 @@ reading_progress:
 
 
 #! ---------------------------------------------------------------
-#! DO NOT EDIT THE FOLLOWING SETTINGS
-#! UNLESS YOU KNOW WHAT YOU ARE DOING
+#! 不要编辑以下设置
+#! 除非你知道你在做什么
 #! ---------------------------------------------------------------
 
 # Use velocity to animate everything.
