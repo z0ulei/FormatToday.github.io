@@ -3,9 +3,7 @@ title: HelloWorld
 date: 2018-08-22 15:44:28
 tags:
 ---
-```
-C语言版
-
+```c
 #include<stdlib.h>
 
 int main()
@@ -14,10 +12,9 @@ int main()
     return 0;
  }
 
- 
+```
 
-c++版
-
+```c++
 #include<iostream>
 using namespace std;
 
@@ -26,11 +23,9 @@ int main()
     cout<<"HelloWorld";
     return 0;
  }
+```
 
-java版
-
-package initial;
-
+```java
 public class HelloWorld {
 
     public static void main(String[] args) {
@@ -38,17 +33,13 @@ public class HelloWorld {
     }
 
 }
+```
 
+```python
+print ('HelloWorld')
+```
 
-python 2.*版
-
-print 'HelloWorld'
-
-
- 
-
-html版
-
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -59,12 +50,9 @@ html版
         HelloWorld
     </body>
 </html>
+```
 
-
- 
-
-pascal版
-
+```pascal
 program hello;
 
 Begin
@@ -74,78 +62,45 @@ Begin
 　　readln;
 
 End.
+```
 
- 
-
-Ruby版
-
+```ruby
 puts "HelloWorld"
+```
 
-
- 
-
-javascript版
-
+```javascript
 console.log("HelloWorld");
+```
 
-
-PHP版
-
+```php
 <?
 
 echo"HelloWorld";
 
 ?>
+```
 
- 
-
-c#版
-
+```
 using system;
-
- 
-
 namespace HelloWorld
-
 {
-
-　　class programe
-
+	class programe
 　　{
-
-　　static void main(String[] args)
-
-　　{
-
-　　Console.WriteLine("HelloWorld");
-
-　　Console.ReadKey();
-
+　　	static void main(String[] args)
+      {
+          Console.WriteLine("HelloWorld");
+          Console.ReadKey();
+      }
+	}
 }
 
-}
+```
 
-}
-
-
-
- 
-
-Go语言
-
+```go
 package main
-
 import "fmt"
-
- 
-
 func main()
-
 {
-
 　　fmt.printf("HelloWorld")
-
 }
-
- 
 ```
