@@ -15,7 +15,8 @@ timezone: Asia/Shanghai
 ## 如果网站被放置在子目录中, 把 url 设置成 'http://yoursite.com/child' 并且把 root 设置成 '/child/'
 url: http://zhangqin56.cn
 root: /
-permalink: :year/:month/:day/:title/
+# 博客文章的 URL 结构
+permalink: :category/:year/:month/:day/:title.html
 permalink_defaults:
 
 # 目录
@@ -38,10 +39,12 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+# 代码高亮设置
 highlight:
   enable: true
-  line_number: true
-  auto_detect: false
+  line_number: false
+  # 代码自动高亮
+  auto_detect: true
   tab_replace:
   
 # 主页设置
@@ -55,6 +58,8 @@ index_generator:
   
 # 分类 & 标签
 default_category: uncategorized
+# URL 中的分类和标签“翻译”成英文
+# 见：https://github.com/hexojs/hexo/issues/1162
 category_map:
 tag_map:
 
@@ -74,6 +79,26 @@ pagination_dir: page
 ## 插件: https://hexo.io/plugins/
 ## 主题: https://hexo.io/themes/
 
+# RSS，要先进入站点文件夹根目录安装插件
+# npm install hexo-generator-feed --save 即可
+# 无需更多配置
+# 参数说明查看 README：https://github.com/hexojs/hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+# 文章数，0 为全部
+  limit: 0
+  hub:
+  # 是否包含文章内容
+  content: true
+  
+# emoji 支持
+githubEmojis:
+  enable: true
+  idName: github-emoji
+  unicode: false
+  styles:
+  localEmojis: 
 # theme: landscape
 theme: next
 
