@@ -4,6 +4,8 @@ date: 2018-08-22 15:44:28
 tags: 杂七杂八
 categories: 随笔
 ---
+各种编程语言的 Hello World 。
+<!-- more -->
 ```c
 #include<stdlib.h>
 
