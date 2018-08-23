@@ -121,7 +121,7 @@ menu:
   archives: /archives/ || archive
   categories: /categories/ || th
   tags: /tags/ || tags
-  # top: /top/ || signal
+  top: /top/ || signal
   # about: /about/ || futbol-o
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -634,7 +634,7 @@ vkontakte_api:
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
-  enable: true
+  enable: false
   id:     #<app_id>
   color:  f79533
 # ---------------------------------------------------------------
@@ -767,7 +767,7 @@ label: true
 tabs:
   enable: true
   transition:
-    tabs: false
+    tabs: true
     labels: true
   border_radius: 0
 
@@ -787,7 +787,7 @@ reading_progress:
 # Use velocity to animate everything.
 motion:
   enable: true
-  async: false
+  async: true
   transition:
     # Transition variants:
     # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
@@ -796,10 +796,10 @@ motion:
     # slideUpIn | slideUpOut | slideDownIn | slideDownOut | slideLeftIn | slideLeftOut | slideRightIn | slideRightOut
     # slideUpBigIn | slideUpBigOut | slideDownBigIn | slideDownBigOut | slideLeftBigIn | slideLeftBigOut | slideRightBigIn | slideRightBigOut
     # perspectiveUpIn | perspectiveUpOut | perspectiveDownIn | perspectiveDownOut | perspectiveLeftIn | perspectiveLeftOut | perspectiveRightIn | perspectiveRightOut
-    post_block: fadeIn
-    post_header: slideDownIn
-    post_body: slideDownIn
-    coll_header: slideLeftIn
+    post_block: perspectiveLeftIn
+    post_header: fadeIn
+    post_body: fadeIn
+    coll_header: perspectiveLeftIn
     # Only for Pisces | Gemini.
     sidebar: slideUpIn
 
@@ -807,7 +807,7 @@ motion:
 # Please, choose only any one variant, do not need to install both.
 # For install 2.x: https://github.com/theme-next/theme-next-fancybox
 # For install 3.x: https://github.com/theme-next/theme-next-fancybox3
-fancybox: false
+fancybox: true
 
 # Added switch option for separated repo in 6.0.0.
 # Dependencies: https://github.com/theme-next/theme-next-fastclick
@@ -819,7 +819,7 @@ lazyload: false
 
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
-pace: false
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
@@ -836,7 +836,7 @@ pace: false
 #pace-theme-minimal
 # For example
 # pace_theme: pace-theme-center-simple
-pace_theme: pace-theme-minimal
+pace_theme: pace-theme-flash
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
