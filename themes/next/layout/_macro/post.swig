@@ -355,7 +355,7 @@
         <div>
         {% include 'passage-end-tag.swig' %}
         </div>
-    {% endif %}}
+    {% endif %}s
 
     {% if theme.wechat_subscriber.enabled and not is_index %}
       <div>
