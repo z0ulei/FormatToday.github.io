@@ -6,11 +6,12 @@ install:
   - npm install
 
 #before_script:
- - npm install -g gulp
+#  - npm install -g gulp
 
 script:
   - hexo clean
-  - hexo g && gulp
+  # - hexo g && gulp
+  - hexo g 
 
 after_script:
   - cd ./public
