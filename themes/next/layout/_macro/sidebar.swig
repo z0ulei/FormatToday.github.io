@@ -131,12 +131,6 @@
           {% endif %}
 
           {# Blogroll #}
-          {% if theme.custom_file_path.sidebar %}
-            {% set custom_sidebar = '../../../../' + theme.custom_file_path.sidebar %}
-          {% else %}
-            {% set custom_sidebar = '../_custom/sidebar.swig' %}
-          {% endif %}
-
           {% if theme.links %}
             <div class="links-of-blogroll motion-element {{ "links-of-blogroll-" + theme.links_layout | default('inline') }}">
               <div class="links-of-blogroll-title">
@@ -149,13 +143,16 @@
                     <a href="{{ link }}" title="{{ name }}" target="_blank">{{ name }}</a>
                   </li>
                 {% endfor %}
-                {% include custom_sidebar %}
               </ul>
             </div>
           {% endif %}
 
-
-
+          {% if theme.custom_file_path.sidebar %}
+            {% set custom_sidebar = '../../../../' + theme.custom_file_path.sidebar %}
+          {% else %}
+            {% set custom_sidebar = '../_custom/sidebar.swig' %}
+          {% endif %}
+          {% include custom_sidebar %}
         </div>
       </section>
 
