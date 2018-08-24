@@ -10,7 +10,6 @@ install:
 
 script:
   - hexo clean
-  # - hexo g && gulp
   - hexo g 
 
 after_script:
