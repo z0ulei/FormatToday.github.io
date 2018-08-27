@@ -44,7 +44,7 @@ highlight:
   enable: true
   line_number: false
   # 代码自动高亮
-  auto_detect: true
+  auto_detect: false
   tab_replace:
   
 # 主页设置
