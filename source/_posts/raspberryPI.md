@@ -4,6 +4,7 @@ date: 2018-08-27 16:03:13
 tags: 树莓派
 categories: 备忘录
 password: pi
+comments: true
 ---
 自用备忘
 <!-- more -->
