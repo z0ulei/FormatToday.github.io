@@ -7,6 +7,14 @@ password: 123456
 ---
 各种编程语言的 Hello World 。
 <!-- more -->
+
+## 做点贡献
+
+大家可以为本文添砖加瓦，只要在GitHub上提交issue就行。谢啦。
+
+[提交地址](https://github.com/FormatToday/FormatToday.github.io/issues/1)
+
+## c
 ```c
 #include<stdlib.h>
 
@@ -18,7 +26,10 @@ int main()
 
 ```
 
+## c++
+
 ```c++
+
 #include<iostream>
 using namespace std;
 
@@ -28,6 +39,8 @@ int main()
     return 0;
  }
 ```
+
+## java
 
 ```java
 public class HelloWorld {
@@ -39,9 +52,13 @@ public class HelloWorld {
 }
 ```
 
+## python
+
 ```python
 print ('HelloWorld')
 ```
+
+## html
 
 ```html
 <!DOCTYPE html>
@@ -56,6 +73,8 @@ print ('HelloWorld')
 </html>
 ```
 
+## pascal
+
 ```pascal
 program hello;
 
@@ -67,14 +86,19 @@ Begin
 
 End.
 ```
+## ruby
 
 ```ruby
 puts "HelloWorld"
 ```
 
+## javascript
+
 ```javascript
 console.log("HelloWorld");
 ```
+
+## php
 
 ```php
 <?
@@ -83,6 +107,8 @@ echo"HelloWorld";
 
 ?>
 ```
+
+## C#
 
 ```
 using system;
@@ -99,6 +125,8 @@ namespace HelloWorld
 }
 
 ```
+
+## go
 
 ```go
 package main

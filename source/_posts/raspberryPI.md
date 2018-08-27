@@ -3,7 +3,10 @@ title: 树莓派自用备忘录
 date: 2018-08-27 16:03:13
 tags: 树莓派
 categories: 备忘录
+password: pi
 ---
+自用备忘
+<!-- more -->
 
 # 下载工具
 
