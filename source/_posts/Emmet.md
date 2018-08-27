@@ -33,7 +33,7 @@ categories: 前端
 
 # 标识符
 
-## 1. 子节点 >
+## 子节点 >
 
 ```Emmet
 div>ul>li
@@ -47,7 +47,7 @@ div>ul>li
 </div>
 ```
 
-## 2. 兄弟节点 +
+## 兄弟节点 +
 
 ```Emmet
 div+p+bq
@@ -59,7 +59,7 @@ div+p+bq
 <blockquote></blockquote>
 ```
 
-## 3. 上浮 ^
+## 上浮 ^
 
 ```Emmet
 div+div>p>span+em^bq 
@@ -85,7 +85,7 @@ div+div>p>span+em^^^bq
 <blockquote></blockquote>
 ```
 
-## 4. 倍数 *
+## 倍数 *
 
 ```Emmet
 div+p+bq
@@ -97,7 +97,7 @@ div+p+bq
 <blockquote></blockquote>
 ```
 
-## 5. 分组 ()
+## 分组 ()
 
 ```Emmet
 div>(header>ul>li*2>a)+footer>p
@@ -137,7 +137,7 @@ div>(header>ul>li*2>a)+footer>p
 </footer>
 ```
 
-## 6. id \#
+## id \#
 
 ```Emmet
 div#header
@@ -147,7 +147,7 @@ div#header
 <div id="header"></div>
 ```
 
-## 7. class .
+## class .
 
 ```Emmet
 div.page
@@ -167,7 +167,7 @@ div#header+div.page+div#footer.class1.class2.class3
 <div id="footer" class="class1 class2 class3"></div>
 ```
 
-## 8. 自定义属性 []
+## 自定义属性 []
 
 ```Emmet
 td[title="Hello world!" colspan=3]
@@ -177,7 +177,7 @@ td[title="Hello world!" colspan=3]
 <td title="Hello world!" colspan="3"></td>
 ```
 
-## 9. 自增长 $
+## 自增长 $
 
 ```Emmet
 ul>li.item$*5
@@ -249,7 +249,7 @@ ul>li.item$@-3*5
 </ul>
 ```
 
-## 10. 文本 {}
+## 文本 {}
 
 ```Emmet
 a{Click me}
