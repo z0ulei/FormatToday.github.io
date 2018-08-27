@@ -14,7 +14,7 @@ password: 123456
 
 [提交地址](https://github.com/FormatToday/FormatToday.github.io/issues/1)
 
-## c
+## C
 ```c
 #include<stdlib.h>
 
@@ -26,7 +26,7 @@ int main()
 
 ```
 
-## c++
+## C++
 
 ```c++
 
@@ -135,4 +135,10 @@ func main()
 {
 　　fmt.printf("HelloWorld")
 }
+```
+
+## matlab
+
+```matlab
+disp('Hello World');
 ```
