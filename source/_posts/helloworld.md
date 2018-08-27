@@ -10,9 +10,7 @@ comments: true
 
 ## 做点贡献
 
-大家可以为本文添砖加瓦，只要在GitHub上提交issue就行。谢啦。
-
-[提交地址](https://github.com/FormatToday/FormatToday.github.io/issues/1)
+大家可以为本文添砖加瓦，只要在最底部评论区评论就行，我看到的时候会加进来的。谢啦。
 
 ## C
 ```c

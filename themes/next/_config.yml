@@ -978,3 +978,7 @@ since: 2018
 
 passage_end_tag:
   enabled: true
+
+# Online contact 
+daovoice: true
+daovoice_app_id: cb0b1082
