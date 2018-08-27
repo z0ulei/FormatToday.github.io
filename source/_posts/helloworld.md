@@ -108,9 +108,9 @@ echo"HelloWorld";
 ?>
 ```
 
-## C#
+## C\#
 
-```
+```c#
 using system;
 namespace HelloWorld
 {
