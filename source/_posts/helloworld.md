@@ -106,7 +106,7 @@ echo"HelloWorld";
 ?>
 ```
 
-## C sharp
+## C\#
 
 ```c#
 using system;
